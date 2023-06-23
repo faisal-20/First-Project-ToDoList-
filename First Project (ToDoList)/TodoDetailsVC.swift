@@ -13,6 +13,7 @@ class TodoDetailsVC: UIViewController {
     var todo: Todo!
     var index: Int!
     
+    //UI outlet elements
     @IBOutlet weak var todoImageView: UIImageView!
     @IBOutlet weak var todoTitleLabel: UILabel!
     @IBOutlet weak var detailsLabel: UILabel!
