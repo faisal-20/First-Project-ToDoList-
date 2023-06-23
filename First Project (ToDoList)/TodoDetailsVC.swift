@@ -7,7 +7,7 @@
 
 import UIKit
 
-// View Controller
+// VC to add or edit Todo item
 class TodoDetailsVC: UIViewController {
 
     var todo: Todo!
