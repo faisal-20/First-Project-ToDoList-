@@ -21,6 +21,7 @@
 		3A02B7212A414B19006F38D6 /* TodoDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02B7202A414B19006F38D6 /* TodoDetailsVC.swift */; };
 		3A02B7232A42367A006F38D6 /* NewTodoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02B7222A42367A006F38D6 /* NewTodoVC.swift */; };
 		3A02B7262A43DA31006F38D6 /* TodosModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A02B7242A43DA31006F38D6 /* TodosModel.xcdatamodeld */; };
+		3A2E6F2E2A468E6B004A0733 /* TodoStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E6F2D2A468E6B004A0733 /* TodoStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		3A02B7202A414B19006F38D6 /* TodoDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailsVC.swift; sourceTree = "<group>"; };
 		3A02B7222A42367A006F38D6 /* NewTodoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoVC.swift; sourceTree = "<group>"; };
 		3A02B7252A43DA31006F38D6 /* TodosModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodosModel.xcdatamodel; sourceTree = "<group>"; };
+		3A2E6F2D2A468E6B004A0733 /* TodoStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,17 +111,15 @@
 		3A02B6E72A412E22006F38D6 /* First Project (ToDoList) */ = {
 			isa = PBXGroup;
 			children = (
+				3A2E6F2C2A468D9C004A0733 /* Storage */,
+				3A2E6F2B2A468C4F004A0733 /* Models */,
+				3A2E6F2A2A468C20004A0733 /* Viewa */,
+				3A2E6F292A468BD6004A0733 /* View Controller */,
 				3A02B6E82A412E22006F38D6 /* AppDelegate.swift */,
 				3A02B6EA2A412E22006F38D6 /* SceneDelegate.swift */,
-				3A02B6EE2A412E22006F38D6 /* Main.storyboard */,
 				3A02B6F12A412E25006F38D6 /* Assets.xcassets */,
 				3A02B6F32A412E25006F38D6 /* LaunchScreen.storyboard */,
 				3A02B6F62A412E25006F38D6 /* Info.plist */,
-				3A02B7182A41326A006F38D6 /* TodosVC.swift */,
-				3A02B71A2A413C00006F38D6 /* TodoCell.swift */,
-				3A02B71C2A413F3C006F38D6 /* Todo.swift */,
-				3A02B7202A414B19006F38D6 /* TodoDetailsVC.swift */,
-				3A02B7222A42367A006F38D6 /* NewTodoVC.swift */,
 				3A02B7242A43DA31006F38D6 /* TodosModel.xcdatamodeld */,
 			);
 			path = "First Project (ToDoList)";
@@ -140,6 +140,41 @@
 				3A02B70B2A412E26006F38D6 /* First_Project__ToDoList_UITestsLaunchTests.swift */,
 			);
 			path = "First Project (ToDoList)UITests";
+			sourceTree = "<group>";
+		};
+		3A2E6F292A468BD6004A0733 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A02B7202A414B19006F38D6 /* TodoDetailsVC.swift */,
+				3A02B7222A42367A006F38D6 /* NewTodoVC.swift */,
+				3A02B7182A41326A006F38D6 /* TodosVC.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		3A2E6F2A2A468C20004A0733 /* Viewa */ = {
+			isa = PBXGroup;
+			children = (
+				3A02B71A2A413C00006F38D6 /* TodoCell.swift */,
+				3A02B6EE2A412E22006F38D6 /* Main.storyboard */,
+			);
+			path = Viewa;
+			sourceTree = "<group>";
+		};
+		3A2E6F2B2A468C4F004A0733 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A02B71C2A413F3C006F38D6 /* Todo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A2E6F2C2A468D9C004A0733 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				3A2E6F2D2A468E6B004A0733 /* TodoStorage.swift */,
+			);
+			path = Storage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +311,7 @@
 				3A02B6E92A412E22006F38D6 /* AppDelegate.swift in Sources */,
 				3A02B7262A43DA31006F38D6 /* TodosModel.xcdatamodeld in Sources */,
 				3A02B7232A42367A006F38D6 /* NewTodoVC.swift in Sources */,
+				3A2E6F2E2A468E6B004A0733 /* TodoStorage.swift in Sources */,
 				3A02B6EB2A412E22006F38D6 /* SceneDelegate.swift in Sources */,
 				3A02B7192A41326A006F38D6 /* TodosVC.swift in Sources */,
 				3A02B71B2A413C00006F38D6 /* TodoCell.swift in Sources */,
