@@ -1,0 +1,1231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F800984C5022C4203FC51FD1BD56D3 /* CleanyAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83BF262F7728870BAE8D60BAB1EDC1F /* CleanyAlertViewController.swift */; };
+		0E83CEF0477F83DE04CE7D57D86060D6 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2686A67B4B3C73A3C8E8603E5E74FAF0 /* YoshikoTextField.swift */; };
+		1025F1C8C22D042ABA25802EB7388EC8 /* Pods-First Project (ToDoList)Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AEE4CF094503FEC942B02BEA6F0E05 /* Pods-First Project (ToDoList)Tests-dummy.m */; };
+		14958A2E86F25B27E4151EAE7E8FF577 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0F83D204F8A50DFC66E6C38DA5FDB6 /* JiroTextField.swift */; };
+		1764DA8D6F7C959A9F33C638B787E74D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		176F3190554D53D4F503011EA90E9CBD /* CleanyModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63949527B4E2FFA080A34832657BD77C /* CleanyModalViewController.swift */; };
+		1F6D12124DD67F545178BB8B95CB6AE7 /* CleanyAlertActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7A5A0EC9BE6A56A3E07C849BBA5CC /* CleanyAlertActionTableViewCell.swift */; };
+		290CED810C7991DF9141B5FC340F1340 /* CleanyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C237B0856FECEF6A050EDEE60ECAFE /* CleanyConfig.swift */; };
+		2CFCF0C0D8B3CF730659489409C809AD /* CleanyAlertActionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = F732D65AB659D3AC527398DE0A284445 /* CleanyAlertActionTableViewCell.xib */; };
+		313DB33B4A0AE384BDF05CA00E1F3C1B /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA30C4D8386F51E15EDC203E7BA0DBE /* IsaoTextField.swift */; };
+		33E601C59F76719BF5284E739471AD16 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F618A2604E64108020D8610C59295AE /* AkiraTextField.swift */; };
+		347952D8B8CB66F36B204DF2357A5518 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DE7831A73941B7A83C4DF9B2A42337 /* TextFieldEffects.swift */; };
+		361F1B08C255C0EC3113573146BFFEA5 /* Pods-First Project (ToDoList)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 470D6CC9FF7654072FC65A5453BC3AEE /* Pods-First Project (ToDoList)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3874D046CCB86A82137C8BB69DDB3C54 /* Pods-First Project (ToDoList)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2223C38BDE05F86C6B1448AC55403D81 /* Pods-First Project (ToDoList)-dummy.m */; };
+		3D03BE46B8ABB53C031119BDA123AF9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		440C1C66B79F2A6A3FBE5D5B5B4F8CE2 /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118B008A14C74DD5636B6910E7C0CF01 /* NSLayoutConstraint+Extension.swift */; };
+		4E51DE4EF2ABB74CE6BE159EC3A70E5B /* CleanyModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD2552735BFA0895EF0DAB35A2F7827 /* CleanyModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5266B804A26346EE0F243C823073948B /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9663A4FFB521B748EC1EB41F4F55FB69 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-dummy.m */; };
+		56CA8D0F87EF8ED8A716CB4F68AC575F /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285842D96DC5EA2FDC7159BDF9C1D8A6 /* KaedeTextField.swift */; };
+		59B0195EE5E8D2EF590C8D3B95A8985A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		661EF4C55AB34AC2353074F98374A8AB /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1032835370F0A3C6A948A4E45A26AE73 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76FC262F88C5C4ECC416CC8E98691653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7B3FDEEB2A92B5308E864A17E434148C /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C382B6B174B0B5CCA71A74DDE04039 /* MadokaTextField.swift */; };
+		874B3B9A90C1E413FDCC96C91AC63902 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CF8104E637FF43082928F71BD69343 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91EEC8FACD42A2D4D6BF025F05D091FF /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D90420813F6EF8955D30165BB18D8892 /* TextFieldEffects-dummy.m */; };
+		9222BD704E0A5ED4F7C2638F0D095229 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC24DE9AB7FBDD27B87A61FE68E0D71 /* AlertModel.swift */; };
+		9735565074627CE031308408B8C86112 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6C8383F46530570C7602474FC9FD9 /* HoshiTextField.swift */; };
+		A278E042A5B5DC2547EAC7FEEBDC8FBA /* CleanyAlertViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 77D9210AC10AB7062312E175F7E2513D /* CleanyAlertViewController.xib */; };
+		ACC9262F87FCC7309C50EE7023B39314 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9CE63A77E2081642E3BC5A70B9F0F /* UIColor+Extension.swift */; };
+		AEB5615EDFC684965631D65117D21F1C /* CleanyModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91074260DF26527F39A26EB2B9067E88 /* CleanyModal-dummy.m */; };
+		B373B6DE977C39AC68DC4898FA9A1579 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68E07E42AB77795C74EBBE5B451CF8A /* YokoTextField.swift */; };
+		C31E3D670A06536A9A30359370FDF14E /* Pods-First Project (ToDoList)Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4917A22296EF005FA8DC08693237E1 /* Pods-First Project (ToDoList)Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D07C41CADECBB3C16108C338B470E889 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC67C5EE14B5A3CF5237B5FFFEEF56F /* MinoruTextField.swift */; };
+		D7774348FBA12A06B58CDB085824C08C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EC535E8461FEB197BC3053403F5BB87C /* CleanyModalTransitionDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527298DD18D589599A0C357F36AB4A0 /* CleanyModalTransitionDelegates.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		191902BC1726A1876A09627A203A8468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB3E24004CA660160A4454C615622C9F;
+			remoteInfo = "Pods-First Project (ToDoList)";
+		};
+		333DA0E944C1A3884A6688FE9FB529BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C45A829CDBA420E188ABC8136AA36AF;
+			remoteInfo = CleanyModal;
+		};
+		91622ABABAD18BA1A5EA5706C7134FF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09BAB8A20917611A8AD17E2E0EE8271;
+			remoteInfo = TextFieldEffects;
+		};
+		A5FC0DA1CE2E1BC57F13F088537DCA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09BAB8A20917611A8AD17E2E0EE8271;
+			remoteInfo = TextFieldEffects;
+		};
+		B733F16FDF06006A81A2AC69D21A00E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C45A829CDBA420E188ABC8136AA36AF;
+			remoteInfo = CleanyModal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D3EB9423F1A98B95E39EF2DC6C10F6 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		09A184A211A9124E0C6B4946071DF22D /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		0A3AD5D903A1D81F9D28E9BB0A424B1C /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-First Project (ToDoList)-First Project (ToDoList)UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0EB7A5A0EC9BE6A56A3E07C849BBA5CC /* CleanyAlertActionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyAlertActionTableViewCell.swift; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.swift; sourceTree = "<group>"; };
+		1032835370F0A3C6A948A4E45A26AE73 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-First Project (ToDoList)-First Project (ToDoList)UITests-umbrella.h"; sourceTree = "<group>"; };
+		118B008A14C74DD5636B6910E7C0CF01 /* NSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Extension.swift"; path = "CleanyModal/Classes/Helper/NSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
+		13AEE4CF094503FEC942B02BEA6F0E05 /* Pods-First Project (ToDoList)Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-First Project (ToDoList)Tests-dummy.m"; sourceTree = "<group>"; };
+		156C88891FDA8C8A1279FD8F8F288336 /* Pods-First Project (ToDoList)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-First Project (ToDoList)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2223C38BDE05F86C6B1448AC55403D81 /* Pods-First Project (ToDoList)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-First Project (ToDoList)-dummy.m"; sourceTree = "<group>"; };
+		2301E5938C54711B6DFA9AA6162BBB5C /* Pods-First Project (ToDoList)-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-First Project (ToDoList)-frameworks.sh"; sourceTree = "<group>"; };
+		24A01623448D3B9D8952546E85610889 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-First Project (ToDoList)-First Project (ToDoList)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		24C237B0856FECEF6A050EDEE60ECAFE /* CleanyConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyConfig.swift; path = CleanyModal/Classes/CleanyConfig.swift; sourceTree = "<group>"; };
+		25B31749265741A5BFD485F01A733E91 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-First Project (ToDoList)-First Project (ToDoList)UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2686A67B4B3C73A3C8E8603E5E74FAF0 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		285842D96DC5EA2FDC7159BDF9C1D8A6 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		2C23DA7E61EE776CC00E407412939BB0 /* Pods-First Project (ToDoList)Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-First Project (ToDoList)Tests.modulemap"; sourceTree = "<group>"; };
+		2F618A2604E64108020D8610C59295AE /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		467F938CFDD12C9192DA37F46F5929D8 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-First Project (ToDoList)-First Project (ToDoList)UITests"; path = Pods_First_Project__ToDoList__First_Project__ToDoList_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		470D6CC9FF7654072FC65A5453BC3AEE /* Pods-First Project (ToDoList)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-First Project (ToDoList)-umbrella.h"; sourceTree = "<group>"; };
+		47F5605454D3D119F8EE03C6E316FE5C /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-First Project (ToDoList)-First Project (ToDoList)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F8CA4E4978B26A79ECEF2F1F55724FB /* TextFieldEffects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.release.xcconfig; sourceTree = "<group>"; };
+		4FD2552735BFA0895EF0DAB35A2F7827 /* CleanyModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-umbrella.h"; sourceTree = "<group>"; };
+		552BC31E8A94C788158EAC6F953E0E99 /* Pods-First Project (ToDoList)Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-First Project (ToDoList)Tests"; path = Pods_First_Project__ToDoList_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC67C5EE14B5A3CF5237B5FFFEEF56F /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		5CA9CE63A77E2081642E3BC5A70B9F0F /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "CleanyModal/Classes/Helper/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		62F824BCBA553B39C9BE3A758202F95C /* Pods-First Project (ToDoList)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-First Project (ToDoList)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63949527B4E2FFA080A34832657BD77C /* CleanyModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalViewController.swift; path = CleanyModal/Classes/CleanyModalViewController.swift; sourceTree = "<group>"; };
+		65896360534DED4E1B1BE9C44892C99D /* Pods-First Project (ToDoList).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-First Project (ToDoList).modulemap"; sourceTree = "<group>"; };
+		67B035111A0F538EF6CC0DBFBBD71770 /* Pods-First Project (ToDoList)Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-First Project (ToDoList)Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanyModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		747669EC068E067A5BFBA835FF572217 /* Pods-First Project (ToDoList)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-First Project (ToDoList)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		75EF0437167180D48FD1ACF50EF89624 /* Pods-First Project (ToDoList)Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-First Project (ToDoList)Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77D9210AC10AB7062312E175F7E2513D /* CleanyAlertViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertViewController.xib; path = CleanyModal/Classes/CleanyAlertViewController.xib; sourceTree = "<group>"; };
+		79C6C8383F46530570C7602474FC9FD9 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		81B00FD42C10B25C66B3CE8FDF861B6B /* CleanyModal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanyModal.debug.xcconfig; sourceTree = "<group>"; };
+		8303D8AF7EEC68C5BD8886F518244845 /* Pods-First Project (ToDoList) */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-First Project (ToDoList)"; path = Pods_First_Project__ToDoList_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87219953CF3E45F70139BCB74F0B1985 /* CleanyModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CleanyModal.modulemap; sourceTree = "<group>"; };
+		91074260DF26527F39A26EB2B9067E88 /* CleanyModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CleanyModal-dummy.m"; sourceTree = "<group>"; };
+		9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9663A4FFB521B748EC1EB41F4F55FB69 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-First Project (ToDoList)-First Project (ToDoList)UITests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A205C62BACFAAE1E6213A4BB76AAA0E9 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-First Project (ToDoList)-First Project (ToDoList)UITests.modulemap"; sourceTree = "<group>"; };
+		A6CF8104E637FF43082928F71BD69343 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		A6DE7831A73941B7A83C4DF9B2A42337 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		AAD03689A359CD40989530C769E9CAB1 /* CleanyModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CleanyModal-Info.plist"; sourceTree = "<group>"; };
+		ABF12F785F94D70D0FA62377EC8E91D0 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-First Project (ToDoList)-First Project (ToDoList)UITests-frameworks.sh"; sourceTree = "<group>"; };
+		B0F5A162BE6E27826F34F326E1BABEBF /* Pods-First Project (ToDoList)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-First Project (ToDoList)-Info.plist"; sourceTree = "<group>"; };
+		B5C382B6B174B0B5CCA71A74DDE04039 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		BDA30C4D8386F51E15EDC203E7BA0DBE /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		C68E07E42AB77795C74EBBE5B451CF8A /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		C83BF262F7728870BAE8D60BAB1EDC1F /* CleanyAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyAlertViewController.swift; path = CleanyModal/Classes/CleanyAlertViewController.swift; sourceTree = "<group>"; };
+		C97AA41BFC38090D87D98C96A70B6EFE /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-First Project (ToDoList)-First Project (ToDoList)UITests-Info.plist"; sourceTree = "<group>"; };
+		CBAA2A74691BCEA3A6D16041D797EB15 /* TextFieldEffects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.debug.xcconfig; sourceTree = "<group>"; };
+		CF638B10BCC6DC65B8E5AE953D81F9D5 /* Pods-First Project (ToDoList)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-First Project (ToDoList)-acknowledgements.plist"; sourceTree = "<group>"; };
+		D51BB5A9B08820143C40A93D342A8EE6 /* CleanyModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-prefix.pch"; sourceTree = "<group>"; };
+		D527298DD18D589599A0C357F36AB4A0 /* CleanyModalTransitionDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalTransitionDelegates.swift; path = CleanyModal/Classes/CleanyModalTransitionDelegates.swift; sourceTree = "<group>"; };
+		D90420813F6EF8955D30165BB18D8892 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		DAC24DE9AB7FBDD27B87A61FE68E0D71 /* AlertModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertModel.swift; path = CleanyModal/Classes/Model/AlertModel.swift; sourceTree = "<group>"; };
+		DC04D12452E89DF2CC99E97A84EAC352 /* Pods-First Project (ToDoList).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-First Project (ToDoList).release.xcconfig"; sourceTree = "<group>"; };
+		E35EA125C1B14FC697B51CF3496EE638 /* CleanyModal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanyModal.release.xcconfig; sourceTree = "<group>"; };
+		E54125A271027DCC01B44D53FCFFA56F /* Pods-First Project (ToDoList).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-First Project (ToDoList).debug.xcconfig"; sourceTree = "<group>"; };
+		EF159C38DDF02049750883898A32BAA1 /* Pods-First Project (ToDoList)Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-First Project (ToDoList)Tests-Info.plist"; sourceTree = "<group>"; };
+		F732D65AB659D3AC527398DE0A284445 /* CleanyAlertActionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertActionTableViewCell.xib; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.xib; sourceTree = "<group>"; };
+		F857D60320C6087402A0426515728AFC /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
+		FC4917A22296EF005FA8DC08693237E1 /* Pods-First Project (ToDoList)Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-First Project (ToDoList)Tests-umbrella.h"; sourceTree = "<group>"; };
+		FF0F83D204F8A50DFC66E6C38DA5FDB6 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09121046CD863C47BB3D77C12BCE568C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D03BE46B8ABB53C031119BDA123AF9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155DD62687DDF754A9F803E24140F07C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7774348FBA12A06B58CDB085824C08C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4A28F1D9AE1689ACBDE23268EC382E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1764DA8D6F7C959A9F33C638B787E74D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D22502B19E0ED15CDCD456D2D76A445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FC262F88C5C4ECC416CC8E98691653 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D703A34D0FA6A7AABB584964E8EBE133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B0195EE5E8D2EF590C8D3B95A8985A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03946F691169B36FEA6311A5EBF9AFDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D642893149F4F92E8932B9B4F29404E0 /* CleanyModal */,
+				6770274C5361A0C094A73924DE3B47A2 /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		16456760A34E43A6FE5B7128838BC885 /* Pods-First Project (ToDoList)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2C23DA7E61EE776CC00E407412939BB0 /* Pods-First Project (ToDoList)Tests.modulemap */,
+				67B035111A0F538EF6CC0DBFBBD71770 /* Pods-First Project (ToDoList)Tests-acknowledgements.markdown */,
+				75EF0437167180D48FD1ACF50EF89624 /* Pods-First Project (ToDoList)Tests-acknowledgements.plist */,
+				13AEE4CF094503FEC942B02BEA6F0E05 /* Pods-First Project (ToDoList)Tests-dummy.m */,
+				EF159C38DDF02049750883898A32BAA1 /* Pods-First Project (ToDoList)Tests-Info.plist */,
+				FC4917A22296EF005FA8DC08693237E1 /* Pods-First Project (ToDoList)Tests-umbrella.h */,
+				747669EC068E067A5BFBA835FF572217 /* Pods-First Project (ToDoList)Tests.debug.xcconfig */,
+				156C88891FDA8C8A1279FD8F8F288336 /* Pods-First Project (ToDoList)Tests.release.xcconfig */,
+			);
+			name = "Pods-First Project (ToDoList)Tests";
+			path = "Target Support Files/Pods-First Project (ToDoList)Tests";
+			sourceTree = "<group>";
+		};
+		4C74EB4AD1BED2B40D31093C76DA3D29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87219953CF3E45F70139BCB74F0B1985 /* CleanyModal.modulemap */,
+				91074260DF26527F39A26EB2B9067E88 /* CleanyModal-dummy.m */,
+				AAD03689A359CD40989530C769E9CAB1 /* CleanyModal-Info.plist */,
+				D51BB5A9B08820143C40A93D342A8EE6 /* CleanyModal-prefix.pch */,
+				4FD2552735BFA0895EF0DAB35A2F7827 /* CleanyModal-umbrella.h */,
+				81B00FD42C10B25C66B3CE8FDF861B6B /* CleanyModal.debug.xcconfig */,
+				E35EA125C1B14FC697B51CF3496EE638 /* CleanyModal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CleanyModal";
+			sourceTree = "<group>";
+		};
+		559542CE6254F3780CC729D5D16BB912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal.framework */,
+				8303D8AF7EEC68C5BD8886F518244845 /* Pods-First Project (ToDoList) */,
+				467F938CFDD12C9192DA37F46F5929D8 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests */,
+				552BC31E8A94C788158EAC6F953E0E99 /* Pods-First Project (ToDoList)Tests */,
+				9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6770274C5361A0C094A73924DE3B47A2 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				2F618A2604E64108020D8610C59295AE /* AkiraTextField.swift */,
+				79C6C8383F46530570C7602474FC9FD9 /* HoshiTextField.swift */,
+				BDA30C4D8386F51E15EDC203E7BA0DBE /* IsaoTextField.swift */,
+				FF0F83D204F8A50DFC66E6C38DA5FDB6 /* JiroTextField.swift */,
+				285842D96DC5EA2FDC7159BDF9C1D8A6 /* KaedeTextField.swift */,
+				B5C382B6B174B0B5CCA71A74DDE04039 /* MadokaTextField.swift */,
+				5AC67C5EE14B5A3CF5237B5FFFEEF56F /* MinoruTextField.swift */,
+				A6DE7831A73941B7A83C4DF9B2A42337 /* TextFieldEffects.swift */,
+				C68E07E42AB77795C74EBBE5B451CF8A /* YokoTextField.swift */,
+				2686A67B4B3C73A3C8E8603E5E74FAF0 /* YoshikoTextField.swift */,
+				DC8F8DB5DA200FAE65F2AD17FF8CD64D /* Support Files */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		B161E1CABB627F369CA665A27524ED75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E072525F215E1DEDA069D4CB307B3BA8 /* Pods-First Project (ToDoList) */,
+				F1AF1A04EBDF94FF9E4BD8E0BDB8D8C4 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests */,
+				16456760A34E43A6FE5B7128838BC885 /* Pods-First Project (ToDoList)Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				03946F691169B36FEA6311A5EBF9AFDE /* Pods */,
+				559542CE6254F3780CC729D5D16BB912 /* Products */,
+				B161E1CABB627F369CA665A27524ED75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D642893149F4F92E8932B9B4F29404E0 /* CleanyModal */ = {
+			isa = PBXGroup;
+			children = (
+				DAC24DE9AB7FBDD27B87A61FE68E0D71 /* AlertModel.swift */,
+				0EB7A5A0EC9BE6A56A3E07C849BBA5CC /* CleanyAlertActionTableViewCell.swift */,
+				F732D65AB659D3AC527398DE0A284445 /* CleanyAlertActionTableViewCell.xib */,
+				C83BF262F7728870BAE8D60BAB1EDC1F /* CleanyAlertViewController.swift */,
+				77D9210AC10AB7062312E175F7E2513D /* CleanyAlertViewController.xib */,
+				24C237B0856FECEF6A050EDEE60ECAFE /* CleanyConfig.swift */,
+				D527298DD18D589599A0C357F36AB4A0 /* CleanyModalTransitionDelegates.swift */,
+				63949527B4E2FFA080A34832657BD77C /* CleanyModalViewController.swift */,
+				118B008A14C74DD5636B6910E7C0CF01 /* NSLayoutConstraint+Extension.swift */,
+				5CA9CE63A77E2081642E3BC5A70B9F0F /* UIColor+Extension.swift */,
+				4C74EB4AD1BED2B40D31093C76DA3D29 /* Support Files */,
+			);
+			path = CleanyModal;
+			sourceTree = "<group>";
+		};
+		DC8F8DB5DA200FAE65F2AD17FF8CD64D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06D3EB9423F1A98B95E39EF2DC6C10F6 /* TextFieldEffects.modulemap */,
+				D90420813F6EF8955D30165BB18D8892 /* TextFieldEffects-dummy.m */,
+				F857D60320C6087402A0426515728AFC /* TextFieldEffects-Info.plist */,
+				09A184A211A9124E0C6B4946071DF22D /* TextFieldEffects-prefix.pch */,
+				A6CF8104E637FF43082928F71BD69343 /* TextFieldEffects-umbrella.h */,
+				CBAA2A74691BCEA3A6D16041D797EB15 /* TextFieldEffects.debug.xcconfig */,
+				4F8CA4E4978B26A79ECEF2F1F55724FB /* TextFieldEffects.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		E072525F215E1DEDA069D4CB307B3BA8 /* Pods-First Project (ToDoList) */ = {
+			isa = PBXGroup;
+			children = (
+				65896360534DED4E1B1BE9C44892C99D /* Pods-First Project (ToDoList).modulemap */,
+				62F824BCBA553B39C9BE3A758202F95C /* Pods-First Project (ToDoList)-acknowledgements.markdown */,
+				CF638B10BCC6DC65B8E5AE953D81F9D5 /* Pods-First Project (ToDoList)-acknowledgements.plist */,
+				2223C38BDE05F86C6B1448AC55403D81 /* Pods-First Project (ToDoList)-dummy.m */,
+				2301E5938C54711B6DFA9AA6162BBB5C /* Pods-First Project (ToDoList)-frameworks.sh */,
+				B0F5A162BE6E27826F34F326E1BABEBF /* Pods-First Project (ToDoList)-Info.plist */,
+				470D6CC9FF7654072FC65A5453BC3AEE /* Pods-First Project (ToDoList)-umbrella.h */,
+				E54125A271027DCC01B44D53FCFFA56F /* Pods-First Project (ToDoList).debug.xcconfig */,
+				DC04D12452E89DF2CC99E97A84EAC352 /* Pods-First Project (ToDoList).release.xcconfig */,
+			);
+			name = "Pods-First Project (ToDoList)";
+			path = "Target Support Files/Pods-First Project (ToDoList)";
+			sourceTree = "<group>";
+		};
+		F1AF1A04EBDF94FF9E4BD8E0BDB8D8C4 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A205C62BACFAAE1E6213A4BB76AAA0E9 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests.modulemap */,
+				0A3AD5D903A1D81F9D28E9BB0A424B1C /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-acknowledgements.markdown */,
+				25B31749265741A5BFD485F01A733E91 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-acknowledgements.plist */,
+				9663A4FFB521B748EC1EB41F4F55FB69 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-dummy.m */,
+				ABF12F785F94D70D0FA62377EC8E91D0 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-frameworks.sh */,
+				C97AA41BFC38090D87D98C96A70B6EFE /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-Info.plist */,
+				1032835370F0A3C6A948A4E45A26AE73 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-umbrella.h */,
+				24A01623448D3B9D8952546E85610889 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests.debug.xcconfig */,
+				47F5605454D3D119F8EE03C6E316FE5C /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests.release.xcconfig */,
+			);
+			name = "Pods-First Project (ToDoList)-First Project (ToDoList)UITests";
+			path = "Target Support Files/Pods-First Project (ToDoList)-First Project (ToDoList)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		347D95F9524345461D872B10F65D928E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31E3D670A06536A9A30359370FDF14E /* Pods-First Project (ToDoList)Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E08BEE5C0513E8612D074F8A3351DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661EF4C55AB34AC2353074F98374A8AB /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31A9D00EFF890217704A0D9EFB083A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E51DE4EF2ABB74CE6BE159EC3A70E5B /* CleanyModal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88DD1D4D67A3B6701EDC8A9EAD077AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361F1B08C255C0EC3113573146BFFEA5 /* Pods-First Project (ToDoList)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83A714C737939767E487BF6FDDF6EE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874B3B9A90C1E413FDCC96C91AC63902 /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		988F99A3066BDA47B6CA7D7FDD3D817C /* Pods-First Project (ToDoList)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA1507E6AC821C545C8268C402BB7E1 /* Build configuration list for PBXNativeTarget "Pods-First Project (ToDoList)Tests" */;
+			buildPhases = (
+				347D95F9524345461D872B10F65D928E /* Headers */,
+				4619C9433E3C4173D0E22487D7E9128A /* Sources */,
+				09121046CD863C47BB3D77C12BCE568C /* Frameworks */,
+				28C1713DDAAD1D0C60326CB8F131B1A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1145F1A5BE5899639AA7C1AC9480631 /* PBXTargetDependency */,
+			);
+			name = "Pods-First Project (ToDoList)Tests";
+			productName = Pods_First_Project__ToDoList_Tests;
+			productReference = 552BC31E8A94C788158EAC6F953E0E99 /* Pods-First Project (ToDoList)Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C45A829CDBA420E188ABC8136AA36AF /* CleanyModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE653336E6D67CA8B181F79F97E5FEF /* Build configuration list for PBXNativeTarget "CleanyModal" */;
+			buildPhases = (
+				A31A9D00EFF890217704A0D9EFB083A7 /* Headers */,
+				05F44A39AAF08AA42B074FD0BCED512F /* Sources */,
+				D703A34D0FA6A7AABB584964E8EBE133 /* Frameworks */,
+				3D4D9BD28A1B1155AED7F8EFF41DB649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanyModal;
+			productName = CleanyModal;
+			productReference = 6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB3E24004CA660160A4454C615622C9F /* Pods-First Project (ToDoList) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71FC17BB8858564FC1D8C0E67AE2B71 /* Build configuration list for PBXNativeTarget "Pods-First Project (ToDoList)" */;
+			buildPhases = (
+				A88DD1D4D67A3B6701EDC8A9EAD077AD /* Headers */,
+				1D3A4807DB390287989BA5BAD68FB4D7 /* Sources */,
+				5C4A28F1D9AE1689ACBDE23268EC382E /* Frameworks */,
+				F126CE19A134FB3A2E0CFC4C5E631231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183EBCBC4A561D98A5DADD629F03427F /* PBXTargetDependency */,
+				6E3D4173554A812AB81D1B0A44949E48 /* PBXTargetDependency */,
+			);
+			name = "Pods-First Project (ToDoList)";
+			productName = Pods_First_Project__ToDoList_;
+			productReference = 8303D8AF7EEC68C5BD8886F518244845 /* Pods-First Project (ToDoList) */;
+			productType = "com.apple.product-type.framework";
+		};
+		D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE54C32DADF76D07E96CA9655611A636 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				E83A714C737939767E487BF6FDDF6EE7 /* Headers */,
+				144FFC383B298C7CF6FCC35EC537A19B /* Sources */,
+				7D22502B19E0ED15CDCD456D2D76A445 /* Frameworks */,
+				9AD3ECBCBA345D030077F332A593138F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = 9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6E67EEF03505247F9C2190D2E3AE156 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39067AC288A68AAED894BC4806E4477B /* Build configuration list for PBXNativeTarget "Pods-First Project (ToDoList)-First Project (ToDoList)UITests" */;
+			buildPhases = (
+				45E08BEE5C0513E8612D074F8A3351DF /* Headers */,
+				7E6EC47873FCEC30B5DC935EBF881248 /* Sources */,
+				155DD62687DDF754A9F803E24140F07C /* Frameworks */,
+				F69CD1D405F68E55144196017F9F919D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953EAB0C41BAEE81AF3B8212FDFD5296 /* PBXTargetDependency */,
+				77D85F97333E9B4BEA4964BA7CB08CB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-First Project (ToDoList)-First Project (ToDoList)UITests";
+			productName = Pods_First_Project__ToDoList__First_Project__ToDoList_UITests;
+			productReference = 467F938CFDD12C9192DA37F46F5929D8 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 559542CE6254F3780CC729D5D16BB912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C45A829CDBA420E188ABC8136AA36AF /* CleanyModal */,
+				CB3E24004CA660160A4454C615622C9F /* Pods-First Project (ToDoList) */,
+				F6E67EEF03505247F9C2190D2E3AE156 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests */,
+				988F99A3066BDA47B6CA7D7FDD3D817C /* Pods-First Project (ToDoList)Tests */,
+				D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28C1713DDAAD1D0C60326CB8F131B1A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4D9BD28A1B1155AED7F8EFF41DB649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD3ECBCBA345D030077F332A593138F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F126CE19A134FB3A2E0CFC4C5E631231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69CD1D405F68E55144196017F9F919D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F44A39AAF08AA42B074FD0BCED512F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9222BD704E0A5ED4F7C2638F0D095229 /* AlertModel.swift in Sources */,
+				1F6D12124DD67F545178BB8B95CB6AE7 /* CleanyAlertActionTableViewCell.swift in Sources */,
+				2CFCF0C0D8B3CF730659489409C809AD /* CleanyAlertActionTableViewCell.xib in Sources */,
+				05F800984C5022C4203FC51FD1BD56D3 /* CleanyAlertViewController.swift in Sources */,
+				A278E042A5B5DC2547EAC7FEEBDC8FBA /* CleanyAlertViewController.xib in Sources */,
+				290CED810C7991DF9141B5FC340F1340 /* CleanyConfig.swift in Sources */,
+				AEB5615EDFC684965631D65117D21F1C /* CleanyModal-dummy.m in Sources */,
+				EC535E8461FEB197BC3053403F5BB87C /* CleanyModalTransitionDelegates.swift in Sources */,
+				176F3190554D53D4F503011EA90E9CBD /* CleanyModalViewController.swift in Sources */,
+				440C1C66B79F2A6A3FBE5D5B5B4F8CE2 /* NSLayoutConstraint+Extension.swift in Sources */,
+				ACC9262F87FCC7309C50EE7023B39314 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144FFC383B298C7CF6FCC35EC537A19B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E601C59F76719BF5284E739471AD16 /* AkiraTextField.swift in Sources */,
+				9735565074627CE031308408B8C86112 /* HoshiTextField.swift in Sources */,
+				313DB33B4A0AE384BDF05CA00E1F3C1B /* IsaoTextField.swift in Sources */,
+				14958A2E86F25B27E4151EAE7E8FF577 /* JiroTextField.swift in Sources */,
+				56CA8D0F87EF8ED8A716CB4F68AC575F /* KaedeTextField.swift in Sources */,
+				7B3FDEEB2A92B5308E864A17E434148C /* MadokaTextField.swift in Sources */,
+				D07C41CADECBB3C16108C338B470E889 /* MinoruTextField.swift in Sources */,
+				347952D8B8CB66F36B204DF2357A5518 /* TextFieldEffects.swift in Sources */,
+				91EEC8FACD42A2D4D6BF025F05D091FF /* TextFieldEffects-dummy.m in Sources */,
+				B373B6DE977C39AC68DC4898FA9A1579 /* YokoTextField.swift in Sources */,
+				0E83CEF0477F83DE04CE7D57D86060D6 /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3A4807DB390287989BA5BAD68FB4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3874D046CCB86A82137C8BB69DDB3C54 /* Pods-First Project (ToDoList)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4619C9433E3C4173D0E22487D7E9128A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1025F1C8C22D042ABA25802EB7388EC8 /* Pods-First Project (ToDoList)Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6EC47873FCEC30B5DC935EBF881248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5266B804A26346EE0F243C823073948B /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183EBCBC4A561D98A5DADD629F03427F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CleanyModal;
+			target = 9C45A829CDBA420E188ABC8136AA36AF /* CleanyModal */;
+			targetProxy = 333DA0E944C1A3884A6688FE9FB529BF /* PBXContainerItemProxy */;
+		};
+		6E3D4173554A812AB81D1B0A44949E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */;
+			targetProxy = A5FC0DA1CE2E1BC57F13F088537DCA8F /* PBXContainerItemProxy */;
+		};
+		77D85F97333E9B4BEA4964BA7CB08CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */;
+			targetProxy = 91622ABABAD18BA1A5EA5706C7134FF1 /* PBXContainerItemProxy */;
+		};
+		953EAB0C41BAEE81AF3B8212FDFD5296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CleanyModal;
+			target = 9C45A829CDBA420E188ABC8136AA36AF /* CleanyModal */;
+			targetProxy = B733F16FDF06006A81A2AC69D21A00E8 /* PBXContainerItemProxy */;
+		};
+		A1145F1A5BE5899639AA7C1AC9480631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-First Project (ToDoList)";
+			target = CB3E24004CA660160A4454C615622C9F /* Pods-First Project (ToDoList) */;
+			targetProxy = 191902BC1726A1876A09627A203A8468 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02C88D6EA41F48C81035D30D4A8853CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54125A271027DCC01B44D53FCFFA56F /* Pods-First Project (ToDoList).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-First Project (ToDoList)/Pods-First Project (ToDoList)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-First Project (ToDoList)/Pods-First Project (ToDoList).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17329E954F15784AD4D22CEE77EBDB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC04D12452E89DF2CC99E97A84EAC352 /* Pods-First Project (ToDoList).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-First Project (ToDoList)/Pods-First Project (ToDoList)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-First Project (ToDoList)/Pods-First Project (ToDoList).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		212FFA5EE16C9D0D59FE257CB2301A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156C88891FDA8C8A1279FD8F8F288336 /* Pods-First Project (ToDoList)Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-First Project (ToDoList)Tests/Pods-First Project (ToDoList)Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-First Project (ToDoList)Tests/Pods-First Project (ToDoList)Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24B97EC45712C5BD02F8E1F58EAB18D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747669EC068E067A5BFBA835FF572217 /* Pods-First Project (ToDoList)Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-First Project (ToDoList)Tests/Pods-First Project (ToDoList)Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-First Project (ToDoList)Tests/Pods-First Project (ToDoList)Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BDAA52065A79B201509C6CF52610573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F5605454D3D119F8EE03C6E316FE5C /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-First Project (ToDoList)-First Project (ToDoList)UITests/Pods-First Project (ToDoList)-First Project (ToDoList)UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-First Project (ToDoList)-First Project (ToDoList)UITests/Pods-First Project (ToDoList)-First Project (ToDoList)UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47772F8B731449B2F86D439A816C7F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F8CA4E4978B26A79ECEF2F1F55724FB /* TextFieldEffects.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9052E54A6156D8BFC9A0F9616595302E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBAA2A74691BCEA3A6D16041D797EB15 /* TextFieldEffects.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95CD81500F69A0416E2124B34BB21D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A01623448D3B9D8952546E85610889 /* Pods-First Project (ToDoList)-First Project (ToDoList)UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-First Project (ToDoList)-First Project (ToDoList)UITests/Pods-First Project (ToDoList)-First Project (ToDoList)UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-First Project (ToDoList)-First Project (ToDoList)UITests/Pods-First Project (ToDoList)-First Project (ToDoList)UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F0063B52D1A0A9B9C82CA94D0118B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E35EA125C1B14FC697B51CF3496EE638 /* CleanyModal.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CleanyModal/CleanyModal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CleanyModal/CleanyModal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CleanyModal/CleanyModal.modulemap";
+				PRODUCT_MODULE_NAME = CleanyModal;
+				PRODUCT_NAME = CleanyModal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD60CFC3528CBE32C6D14C2D7E7B8A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B00FD42C10B25C66B3CE8FDF861B6B /* CleanyModal.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CleanyModal/CleanyModal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CleanyModal/CleanyModal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CleanyModal/CleanyModal.modulemap";
+				PRODUCT_MODULE_NAME = CleanyModal;
+				PRODUCT_NAME = CleanyModal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EE653336E6D67CA8B181F79F97E5FEF /* Build configuration list for PBXNativeTarget "CleanyModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD60CFC3528CBE32C6D14C2D7E7B8A80 /* Debug */,
+				9F0063B52D1A0A9B9C82CA94D0118B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39067AC288A68AAED894BC4806E4477B /* Build configuration list for PBXNativeTarget "Pods-First Project (ToDoList)-First Project (ToDoList)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CD81500F69A0416E2124B34BB21D5A /* Debug */,
+				2BDAA52065A79B201509C6CF52610573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA1507E6AC821C545C8268C402BB7E1 /* Build configuration list for PBXNativeTarget "Pods-First Project (ToDoList)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B97EC45712C5BD02F8E1F58EAB18D9 /* Debug */,
+				212FFA5EE16C9D0D59FE257CB2301A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71FC17BB8858564FC1D8C0E67AE2B71 /* Build configuration list for PBXNativeTarget "Pods-First Project (ToDoList)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C88D6EA41F48C81035D30D4A8853CB /* Debug */,
+				17329E954F15784AD4D22CEE77EBDB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE54C32DADF76D07E96CA9655611A636 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9052E54A6156D8BFC9A0F9616595302E /* Debug */,
+				47772F8B731449B2F86D439A816C7F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
