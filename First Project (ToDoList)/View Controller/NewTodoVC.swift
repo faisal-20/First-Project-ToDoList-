@@ -20,6 +20,8 @@ class NewTodoVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Hide the keyboard
+        self.hideKeyboardWhenTappedAround()
         if !isCraetionScreen{
             mainButton.setTitle("Edit Task", for: .normal)
             navigationItem.title = "Edit the Task"
@@ -82,5 +84,18 @@ extension NewTodoVC: UIImagePickerControllerDelegate,UINavigationControllerDeleg
         dismiss(animated: true)
         todoImageView.image = image
         
+    }
+}
+
+// Hide keyboard when tapped any where
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
 }
